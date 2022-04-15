@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+body{
+    background-color: #d5dada;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    background: -webkit-linear-gradient(to right bottom, #528eee, #b448f3);
+  background:    -moz-linear-gradient(to right bottom, #528eee, #b448f3);
+  background:         linear-gradient(to right bottom, #528eee, #b448f3);
+}
+.container{
+    
+    border-radius: 15px;
+    margin: 20px auto;
+    width: 40%;
+    padding: 0px 30px;
+    background: #ffffff;
+    
+  
+}
+.contact-box{
+    background: #fff;
+    /* display: flex; */
+    flex-basis: 100%;
+    padding: 20px 0px;
+    
+    
+    
+}
+.contact-box h3{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.contact-box h3::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+.employee-type{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 18px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.radio{
+    flex: 1;
+    
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+.radio input{
+    width: fit-content;
+    
+}
+.input-row .input-group{
+    flex-basis: 45%;
+    
+}
+.input-group input{
+    height: 45px;
+    width: 90%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    margin-bottom: 5px;
+    transition: all 0.3s ease;
+    
+}
+.input-group input:focus,
+.input-group input:valid{
+    border-color: #9b59b6;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+.submit button{
+   height: 100%;
+   width: 100%;
+   outline: none;
+   color: #fff;
+   background: linear-gradient(135deg, #71b7e6, #9b59b6);
+   border: none;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   border-radius: 5px;
+   padding: 10px 10px ;
+   margin-top: 20px;
+}
+h1{
+    text-align: center;
+}
+
+

@@ -1,0 +1,114 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image: url(images/mountain.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+}
+.container{
+    /* border : solid rgb(255, 255, 255) 2px; */
+    border-radius: 25px;
+    text-align: center;
+    line-height: 2px;
+    display: flex;
+    justify-content: space-evenly;
+    width: fit-content;
+    height: fit-content;
+    transform: translate(15%);
+    box-sizing: border-box;
+    padding: 25px;
+    background: rgb(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 16px rgba(0,0,0,0);
+    
+    
+    
+}
+
+.section1{
+    /* border: 2px solid white; */
+    border-radius: 15px;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px;
+    position: relative;
+    top: 16%;
+    font-size: 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background: rgba(7, 7, 7, 0.8)
+    
+}
+.section1:hover{
+    box-shadow: 0 0 10px 4px #34495e;
+    transition: 0.2s;
+}
+.section2{
+    /* border: 2px solid white; */
+    border-radius: 15px;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px;
+    position: relative;
+    top: 16%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background: rgba(7, 7, 7, 0.8)
+    
+}
+.section2:hover{
+    box-shadow: 0 0 10px 4px #34495e;
+}
+.section3{
+    /* border: 2px solid white; */
+    border-radius: 15px;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center;
+    align-items: center; */
+    position: relative;
+    top: 60%;
+    font-size: 25px;
+    margin: 25px;
+    background: rgba(7, 7, 7, 0.8);
+    transform: translateY(12%);
+}
+.section3:hover{
+    box-shadow: 0 0 10px 4px #34495e;
+}
+.underline{
+    width: 100px;
+    height: 10px;
+    background: #34495e;
+    margin: 25px auto;
+}
+a{
+    /* display: block; */
+   
+    background: linear-gradient(#9365ff, #6f3bff);
+    place-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+h3{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

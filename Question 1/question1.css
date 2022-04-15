@@ -1,0 +1,35 @@
+*{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: black ;
+    
+}
+.snippet{
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgb(135, 84, 230);
+    font-weight: 300;
+    width: 80%;
+    margin: 30px;
+}
+.answer{
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgb(230, 125, 84);
+    font-weight: 300;
+    width: 80%;
+    margin: 30px;
+    
+
+}
+/* .answer xmp{
+    color: black;
+} */
+.output{
+    margin: 30px;
+}
+h3{
+    margin: 30px;
+}

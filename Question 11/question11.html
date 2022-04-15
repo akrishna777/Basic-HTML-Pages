@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 11: All Input Elements</title>
+    <link rel="stylesheet" href="question11.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <img src="images/B&Blogo2 copy.png" alt="" srcset="">
+        <div class="title">
+            <h1>Customer Satisfaction Survey</h1>
+            <h2></h2>
+            <h3></h3>
+        </div>
+
+        <div class="userdetails">
+            <div class="firstrow">
+                <div class="input-box-firstrow">
+                    <label>Name</label><br>
+                    <input type="text" placeholder="Your Name"><br>
+                </div>
+                <div class="input-box-firstrow">
+                    <label>Age Range</label><br>
+                    <select id="Age">
+                        <option value="0">1-20</option>
+                        <option value="1">20-40</option>
+                        <option value="2">40-60</option>
+                        <option value="3">60 and Over</option>
+                    </select><br>
+                </div>
+            </div>
+            <div class="secondrow">
+                <div class="input-box-secondrow">
+                    <label>Gender</label><br>
+                    <input type="text" placeholder="Gender"><br>
+                </div>
+                <div class="input-box-secondrow">
+                    <label>Phone Number</label><br>
+                    <input type="text" placeholder="+91-"><br>
+                </div>
+
+            </div>
+            <div class="thirdrow">
+                <div class="input-box-thirdrow">
+                    <label>Your B&B Email</label><br>
+                    <input type="email" placeholder="example@bnbvestures.com"><br>
+                </div>
+                <div class="input-box-thirdrow">
+                    <label>Your B&B Password</label><br>
+                    <input type="password" placeholder="Your Password"><br>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+        <div class="survey-form">
+            <h2>Help us improve our business with your valuable feedback!</h2>
+
+
+
+            <div class="question1">
+                <label>1. Do You often purchase products from Ben & Beckett Vestures?</label>
+            </div>
+            <div class="answer1">
+                <input type="radio" name="yesorno"><label>Yes</label>
+                <input type="radio" name="yesorno"><label>No</label>
+            </div>
+
+
+
+            <div class="question2">
+                <label>2. What category of products do you like?</label>
+            </div>
+            <div class="answer2">
+                <div class="categories1">
+                    <div class="content"><input type="checkbox" name="Apparel"><label>Apparel</label></div>
+                    <div class="content"><input type="checkbox" name="Footwear"><label>Footwear</label></div>
+                    <div class="content"><input type="checkbox" name="Sportswear"><label>Sportswear</label></div>
+                    <div class="content"><input type="checkbox" name="Traditional"><label>Traditional</label></div>
+                    <div class="content"><input type="checkbox" name="Formal Wear"><label>Formal Wear</label></div>
+                    <div class="content"><input type="checkbox" name="Accessories"><label>Accessories</label></div>
+
+                </div>
+                <div class="categories2">
+                    <div class="content"><input type="checkbox" name="Watches & Jewellery"><label>Watches &
+                            jewellery</label></div>
+                    <div class="content"><input type="checkbox" name="Luggage"><label>Luggage</label></div>
+                    <div class="content"><input type="checkbox" name="Cosmetics"><label>Cosmetics</label></div>
+                    <div class="content"><input type="checkbox" name="Costumes"><label>Costumes</label></div>
+                    <div class="content"><input type="checkbox" name="Textiles"><label>Textiles</label></div>
+                    <div class="content"><input type="checkbox" name="Vintage & Secondhand"><label>Vintage &
+                            Secondhand</label>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="question3">
+                <label>3. Rate your shopping experience with Ben & Beckett</label>
+            </div>
+            <div class="answer3">
+                <div class="main">
+                    <input type="range" min="0" max="100" value="50" id="slider">
+                    <div id="selector">
+                        <div class="SelectBtn"></div>
+                        <div id="SelectValue"></div>
+
+                    </div>
+                    <div id="ProgressBar"></div>
+
+                </div>
+            </div>
+
+
+
+            <div class="question4">
+                <h3>Please rate us on the following Factors:</h3>
+            </div>
+            <div class="answer4">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Very Poor</th>
+                        <th>Poor</th>
+                        <th>Satisfactory</th>
+                        <th>Good</th>
+                        <th>Very Good</th>
+                    </tr>
+                    <tr>
+                        <td class="criteria">Product Quality</td>
+                        <td><input type="radio" id="rating" name="radio1"></td>
+                        <td><input type="radio" id="rating" name="radio1"></td>
+                        <td><input type="radio" id="rating" name="radio1"></td>
+                        <td><input type="radio" id="rating" name="radio1"></td>
+                        <td><input type="radio" id="rating" name="radio1"></td>
+
+                    </tr>
+                    <tr>
+                        <td class="criteria">Product Availability</td>
+                        <td><input type="radio" id="rating" name="radio2"></td>
+                        <td><input type="radio" id="rating" name="radio2"></td>
+                        <td><input type="radio" id="rating" name="radio2"></td>
+                        <td><input type="radio" id="rating" name="radio2"></td>
+                        <td><input type="radio" id="rating" name="radio2"></td>
+
+                    </tr>
+                    <tr>
+                        <td class="criteria">Service Quality</td>
+                        <td><input type="radio" id="rating" name="radio3"></td>
+                        <td><input type="radio" id="rating" name="radio3"></td>
+                        <td><input type="radio" id="rating" name="radio3"></td>
+                        <td><input type="radio" id="rating" name="radio3"></td>
+                        <td><input type="radio" id="rating" name="radio3"></td>
+
+                    </tr>
+                    <tr>
+                        <td class="criteria">Value For Money</td>
+                        <td><input type="radio" id="rating" name="radio4"></td>
+                        <td><input type="radio" id="rating" name="radio4"></td>
+                        <td><input type="radio" id="rating" name="radio4"></td>
+                        <td><input type="radio" id="rating" name="radio4"></td>
+                        <td><input type="radio" id="rating" name="radio4"></td>
+
+                    </tr>
+                    <tr>
+                        <td class="criteria">Store Ambience</td>
+                        <td><input type="radio" id="rating" name="radio5"></td>
+                        <td><input type="radio" id="rating" name="radio5"></td>
+                        <td><input type="radio" id="rating" name="radio5"></td>
+                        <td><input type="radio" id="rating" name="radio5"></td>
+                        <td><input type="radio" id="rating" name="radio5"></td>
+
+                    </tr>
+                    <tr>
+                        <td class="criteria">Customer Query Resolution</td>
+                        <td><input type="radio" id="rating" name="radio6"></td>
+                        <td><input type="radio" id="rating" name="radio6"></td>
+                        <td><input type="radio" id="rating" name="radio6"></td>
+                        <td><input type="radio" id="rating" name="radio6"></td>
+                        <td><input type="radio" id="rating" name="radio6"></td>
+
+                    </tr>
+                </table>
+            </div>
+
+
+
+            <div class="question5">
+                <h3>Is there anything else we can help you with? Tell Us below:</h3>
+            </div>
+            <div class="answer5">
+                <textarea name="comments" id="additional comments" cols="60" rows="15"></textarea>
+            </div>
+
+        </div>
+
+        <div class="submit">
+            <input type="submit" value="Submit">
+
+        </div>
+
+    </div>
+
+
+    <script>
+        var slider = document.getElementById("slider")
+        var selector = document.getElementById("selector")
+        var SelectValue = document.getElementById("SelectValue")
+        var ProgressBar = document.getElementById("ProgressBar")
+
+        SelectValue.innerHTML = slider.value;
+        slider.oninput = function () {
+            SelectValue.innerHTML = this.value;
+            selector.style.left = this.value + "%";
+            ProgressBar.style.width = this.value + "%";
+        }
+
+
+
+
+        $('textarea')
+            .focus(function () { $(this).css("background", "white") })
+            .blur(function () { if ($(this)[0].value == '') { $(this).css("background", "url(images/benice.png) center center no-repeat") } });
+    </script>
+</body>
+
+</html>

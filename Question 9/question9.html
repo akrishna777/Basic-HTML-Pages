@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 9 Input Tags</title>
+    <link rel="stylesheet" href="question9.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Question 9: Input Tags</h1>
+    <div class="1">
+        <p>The &ltform&gt tag is used to create an HTML form for user input.</p>
+        <p>The &ltform&gt element can contain one or more of the following form elements:</p>
+    </div>
+
+
+
+    <div class="section1">
+        <h2>1. &ltinput&gt Tag</h2>
+        <p>The &ltinput&gt tag specifies an input field where the user can enter data.
+
+            The &ltinput&gt element is the most important form element.
+
+            The &ltinput&gt element can be displayed in several ways, depending on the type attribute.
+        </p>
+        <ul>
+            <li>&lt;input type=&quot;button&quot;&gt;</li>
+            <li>&lt;input type=&quot;checkbox&quot;&gt;</li>
+            <li>&lt;input type=&quot;color&quot;&gt;</li>
+            <li>&lt;input type=&quot;date&quot;&gt;</li>
+            <li>&lt;input type=&quot;datetime-local&quot;&gt;</li>
+            <li>&lt;input type=&quot;email&quot;&gt;</li>
+            <li>&lt;input type=&quot;file&quot;&gt;</li>
+            <li>&lt;input type=&quot;hidden&quot;&gt;</li>
+            <li>&lt;input type=&quot;image&quot;&gt;</li>
+            <li>&lt;input type=&quot;month&quot;&gt;</li>
+            <li>&lt;input type=&quot;number&quot;&gt;</li>
+            <li>&lt;input type=&quot;password&quot;&gt;</li>
+            <li>&lt;input type=&quot;radio&quot;&gt;</li>
+            <li>&lt;input type=&quot;range&quot;&gt;</li>
+            <li>&lt;input type=&quot;reset&quot;&gt;</li>
+            <li>&lt;input type=&quot;search&quot;&gt;</li>
+            <li>&lt;input type=&quot;submit&quot;&gt;</li>
+            <li>&lt;input type=&quot;tel&quot;&gt;</li>
+            <li>&lt;input type=&quot;text&quot;&gt; (default value)</li>
+            <li>&lt;input type=&quot;time&quot;&gt;</li>
+            <li>&lt;input type=&quot;url&quot;&gt;</li>
+            <li>&lt;input type=&quot;week&quot;&gt;</li>
+        </ul><br>
+
+    </div>
+
+    <div class="section2">
+        <h2>2. &lttextarea&gt Tag</h2>
+        <p>
+            The &lt;textarea&gt; tag defines a multi-line text input control.
+
+            The &lt;textarea&gt; element is often used in a form, to collect user inputs like comments or reviews.
+
+            A text area can hold an unlimited number of characters, and the text renders in a fixed-width font
+            (usually
+            Courier).
+
+            The size of a text area is specified by the &lt;cols&gt; and &lt;rows&gt; attributes (or with CSS).<br>
+            Sample:<br>
+            <xmp>
+                <label for="Comments">Write Your Comments:</label>
+
+                <textarea id="review" name="workreview" rows="4" cols="50">
+                At Guvi's Full Stack Developer Program you will learn how to make a website. They offer tutorials in all web development technologies.
+                </textarea>
+            </xmp>
+            Output:<br>
+            <label for="Comments">Write Your Comments:</label>
+
+            <textarea id="review" name="workreview" rows="4" cols="50">At Guvi's Full Stack Developer Program you will learn how to make a website. They offer tutorials in all web development technologies.
+            </textarea>
+
+        </p>
+
+    </div>
+
+    <div class="section3">
+        <h2>3. &ltbutton&gt Tag</h2>
+        <p>The &lt;button&gt; tag defines a clickable button.
+
+            Inside a &lt;button&gt; element you can put text (and tags like &lt;i&gt;, &lt;b&gt;, &lt;strong&gt;,
+            &lt;br&gt;, &lt;img&gt;, etc.). That is not possible with a button created with the &lt;input&gt;
+            element!
+        </p><br>
+        Sample:<br>
+        <xmp>
+            <button type="button">Click Me!</button>
+        </xmp>
+        Output:<br>
+        <button type="button">Click Me!</button><br>
+
+    </div>
+
+    <div class="section4">
+        <h2>4. &ltselect&gt Tag</h2>
+        <p>
+            The &lt;select&gt; element is used to create a drop-down list.
+
+            The &lt;select&gt; element is most often used in a form, to collect user input.
+
+            The &lt;option&gt; tags inside the &lt;select&gt; element define the available options in the drop-down
+            list.
+            Sample:
+            <xmp>
+                <label for="cars">Choose a car:</label>
+                <select name="cars" id="cars">
+                    <optgroup label="Swedish Cars">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                    </optgroup>
+                    <optgroup label="German Cars">
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </optgroup>
+                </select>
+            </xmp>
+            Output:<br>
+            <label for="cars">Choose a car:</label>
+            <select name="cars" id="cars">
+                <optgroup label="Swedish Cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                </optgroup>
+                <optgroup label="German Cars">
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </optgroup>
+            </select>
+
+        </p>
+
+    </div>
+
+    <div class="section5">
+        <h2>5. &ltfieldset&gt Tag</h2>
+        <p>
+            The &lt;fieldset&gt; tag is used to group related elements in a form.
+
+            The &lt;fieldset&gt; tag draws a box around the related elements.
+        </p>
+        Sample:<br>
+        <xmp>
+            <form action="/action_page.php">
+                <fieldset>
+                    <legend>Personalia:</legend>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" id="birthday" name="birthday"><br><br>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </xmp>
+        Output:<br>
+        <form action="/action_page.php">
+            <fieldset>
+                <legend>Personalia:</legend>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday"><br><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+
+    </div>
+
+
+    <div class="section6">
+        <h2>6. &ltlabel&gt Tag</h2>
+        <p>The &lt;label&gt; tag defines a label for several elements:</p>
+        Sample:
+        <xmp>
+            <form action="/action_page.php">
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">JavaScript</label><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </xmp>
+        Output:<br>
+        <form action="/action_page.php">
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
